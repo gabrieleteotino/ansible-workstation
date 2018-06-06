@@ -1,5 +1,9 @@
 - name: Install my favourite packages
-    apt: name={{item}}
+    apt:
+      name: "{{item}}"
+      update_cache: false
+      # if the package is already installed and a new version is available then update the pkg
+      state: latest
     with_items:
       - htop
       - tmux
