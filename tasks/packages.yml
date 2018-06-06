@@ -1,0 +1,7 @@
+- name: Install my favourite packages
+    apt: name={{item}}
+    with_items:
+      - htop
+      - tmux
+      - mc
+      - ncdu
