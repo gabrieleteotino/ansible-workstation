@@ -3,6 +3,7 @@
 - name: install vscode extensions
   become: yes
   become_user: '{{ item.0.username }}'
+  
   command: "code --install-extension '{{ item.1 }}'"
   with_subelements:
     - '{{ users }}'
