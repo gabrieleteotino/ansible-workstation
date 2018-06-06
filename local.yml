@@ -13,7 +13,7 @@
     - include: tasks/vscode.yml
     - include: tasks/vscode_extensions.yml
       users:
-        - username: teo
+        - username: zap
           visual_studio_code_extensions:
             - ms-vscode.csharp
             - jchannon.csharpextensions
