@@ -7,9 +7,24 @@
     users:
       - username: zap
         visual_studio_code_extensions:
-          - ms-vscode.csharp
-          - jchannon.csharpextensions
-          - jmrog.vscode-nuget-package-manager
+          # Microsoft
+          - ms-vscode.csharp # C# for Visual Studio Code
+          - jchannon.csharpextensions # C# Extensions
+          - jmrog.vscode-nuget-package-manager # NuGet Package Manager
+          # Angular
+          - johnpapa.angular2 # Angular v6 Snippets
+          - alexiv.vscode-angular2-files # Angular Files
+          - Angular.ng-template # Angular Language Service
+          # Generic
+          - CoenraadS.bracket-pair-colorizer # Bracket Pair Colorizer
+          - PKief.material-icon-theme # Material Icon Theme
+          - christian-kohler.path-intellisense # Path Intellisense
+          - esbenp.prettier-vscode # Prettier - Code formatter
+          # Typescript
+          - eg2.tslint # TSLint
+          - rbbit.typescript-hero # TypeScript Hero
+          # Debug
+          - msjsdiag.debugger-for-chrome # Debugger for Chrome
 
   pre_tasks:
     - name: update repositories
