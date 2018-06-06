@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
+- name: Global configuration
+  hosts: all
   become: true
 
   pre_tasks:
