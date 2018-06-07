@@ -25,6 +25,10 @@
           - rbbit.typescript-hero # TypeScript Hero
           # Debug
           - msjsdiag.debugger-for-chrome # Debugger for Chrome
+        atom_packages:
+          - atom-hugo # Run the hugo commands from Atom
+          - date # Insert the current date & time
+          - language-hugo # Syntax higlight for Hugo files
 
   pre_tasks:
     - name: update repositories
@@ -38,3 +42,4 @@
   
   roles:
     - role: postman
+    - role: atom
