@@ -35,4 +35,6 @@
     - include: tasks/packages.yml
     - include: tasks/vscode.yml
     - include: tasks/vscode_extensions.yml
-      
+  
+  roles:
+    - role: postman
