@@ -1,0 +1,7 @@
+---
+- name: Virtual Box
+  hosts: virtualbox
+  become: true
+
+  roles:
+    - role: zram-config
